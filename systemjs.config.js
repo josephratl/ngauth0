@@ -26,12 +26,16 @@
 
       // other libraries
       'rxjs':                      'npm:rxjs',
+      'angular2-jwt':              'npm:angular2-jwt/angular2-jwt.umd.js',
       'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js'
     },
     // packages tells the System loader how to load when no filename and/or no extension
     packages: {
       app: {
         main: './main.js',
+        defaultExtension: 'js'
+      },
+      'angular2-jwt': {
         defaultExtension: 'js'
       },
       rxjs: {

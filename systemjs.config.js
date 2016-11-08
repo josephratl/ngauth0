@@ -39,7 +39,7 @@
       },
       'angular2-jwt': {
         defaultExtension: 'js'
-      },
+      }, 
       'js-base64': {
         defaultExtension: 'js'
       },

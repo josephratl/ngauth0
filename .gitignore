@@ -7,7 +7,7 @@ link-checker-results.txt
 *.js.map
 e2e/**/*.js
 e2e/**/*.js.map
-app/sevices
+app/sevices/*.ts
 _test-output
 _temp
 
